@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'FontsFree-Net-Billabong';
+    src: url('FontsFree-Net-Billabong.ttf');
+}
+
+body{
+    /* background: rgb(246, 241, 241); */
+    background-image: url(cc.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-position-y: 50px;
+    font-size: 16px;
+}
+
+.container .kotak{
+    width: 350px;
+    margin: 50px auto;
+}
+
+/* Top dan Signup */
+.top, .signup{
+    background: #fff;
+    border: 3px solid #e6e6e6;
+    border-radius: 7px;
+    padding: 40px;
+}
+
+
+/* Logo Instagram */
+.logo{
+    font-family: 'FontsFree-Net-Billabong';
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* Inputan Form */
+.form .input_field{
+    margin-bottom: 5px;
+}
+
+.form .input_field .input{
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #262626;
+    padding: 10px;
+}
+   
+.form .input_field .input:focus{
+    border: 1px solid #b2b2b2;
+}
+
+/* Tombol Button */
+.form .btn{
+    width: 100%;
+    margin: 10px 0;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+}
+   
+.form .btn a{
+    color: white;
+}
+
+/* Tulisan or */
+.or{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 20px;
+}
+   
+.or .line{
+    width: 105px;
+    height: 2px;
+    background: #efefef
+}
+   
+.or p{
+    color: black;
+    font-size: 12px;
+}
+
+/* Facebook */
+.face .fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face .fb img{
+    background-color: white;
+    width: 20px;
+    height: 26px;
+    color: white;
+}
+   
+.face  .fb p{
+    color: black;
+    margin-left: 8px;
+}
+
+.face .fb img:hover, p:hover{
+    cursor: pointer;
+}
+
+/* Forgot */
+.face .forgot{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+   
+.face .forgot a{
+    color: black;
+}
+
+
+/* SIgn up */
+.signup{
+    margin: 10px 0 20px;
+    padding: 25px 50px;
+    text-align: center;
+    color: black;
+}
+   
+.signup a{
+    color: blue;
+}
+
+
+/* Logo Aplikasi */
+.apps{
+    text-align: center;
+    color: black;
+}
+   
+.apps p{
+    margin-bottom: 20px;
+}
+   
+.apps a img{
+    width: 135px;
+    height: 40px;
+    margin: 0 15px;
+}
+
+
+/* FOoter */
+.footer{
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+   
+.footer .link ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+   
+.footer .link ul li a{
+    color: black;
+    font-size: 12px;
+}
+   
+.footer .copyright{
+    margin-top: 5px;
+    margin-left: 140px;
+    text-align: center;
+    color: black; 
+}
